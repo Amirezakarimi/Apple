@@ -1,0 +1,687 @@
+.header {
+    width: 100%;
+    height: 45px;
+    background-color: #f8f8fd;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+
+    >nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        >ul {
+            gap: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            >li {
+                padding: 15px 0;
+
+                >a {
+                    color: rgb(141, 141, 141);
+                    font-size: 12px;
+                }
+
+                &:nth-of-type(2) {
+                    &:hover {
+                        >div {
+                            height: 410px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(3) {
+                    &:hover {
+                        >div {
+                            height: 510px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(4) {
+                    &:hover {
+                        >div {
+                            height: 470px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(5),
+                &:nth-of-type(6) {
+                    &:hover {
+                        >div {
+                            height: 440px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(7) {
+                    &:hover {
+                        >div {
+                            height: 250px;
+                        }
+                    }
+
+                    >div {
+                        >ul {
+                            >li {
+                                &:first-of-type {
+                                    >ul {
+                                        >li {
+
+                                            &:nth-of-type(2) {
+                                                margin-top: 20px;
+
+                                                >a {
+                                                    font-weight: 600;
+                                                    font-size: 13px;
+                                                }
+                                            }
+
+                                            &:nth-of-type(3) {
+                                                >a {
+                                                    font-weight: 600;
+                                                    font-size: 13px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-of-type(8) {
+                    &:hover {
+                        >div {
+                            height: 335px;
+                        }
+                    }
+
+                    >div {
+                        >ul {
+                            >li {
+                                &:first-of-type {
+                                    >ul {
+                                        >li {
+
+                                            &:nth-of-type(5) {
+                                                margin-top: 20px;
+
+                                                >a {
+                                                    font-weight: 600;
+                                                    font-size: 13px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-of-type(9) {
+                    &:hover {
+                        >div {
+                            height: 370px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(10) {
+                    &:hover {
+                        >div {
+                            height: 500px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(11) {
+                    &:hover {
+                        >div {
+                            height: 450px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(12) {
+                    &:hover {
+                        >div {
+                            height: 480px;
+                        }
+                    }
+
+                    >div {
+                        >ul {
+                            >li {
+                                &:first-of-type {
+                                    >ul {
+                                        >li {
+
+                                            &:nth-of-type(9) {
+                                                margin-top: 20px;
+
+                                                >a {
+                                                    font-weight: 600;
+                                                    font-size: 13px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-of-type(3),
+                &:nth-of-type(4) {
+                    >div {
+                        >ul {
+                            >li {
+                                >ul {
+                                    >li {
+
+                                        &:nth-of-type(9) {
+                                            margin-top: 20px;
+
+                                            >a {
+                                                font-weight: 600;
+                                                font-size: 13px;
+                                            }
+                                        }
+
+                                        &:nth-of-type(10) {
+                                            >a {
+                                                font-weight: 600;
+                                                font-size: 13px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-of-type(5),
+                &:nth-of-type(6) {
+                    >div {
+                        >ul {
+                            >li {
+                                &:first-of-type {
+                                    >ul {
+                                        >li {
+
+                                            &:nth-of-type(7) {
+                                                margin-top: 20px;
+
+                                                >a {
+                                                    font-weight: 600;
+                                                    font-size: 13px;
+                                                }
+                                            }
+
+                                            &:nth-of-type(8) {
+                                                >a {
+                                                    font-weight: 600;
+                                                    font-size: 13px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+                    >div {
+                        >ul {
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                >div {
+                    transition: .4s;
+                    width: 100%;
+                    height: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 45px;
+                    left: 0;
+                    background-color: rgb(24 24 24);
+                    display: flex;
+                    justify-content: center;
+
+                    >ul {
+                        width: 72%;
+                        display: flex;
+                        gap: 70px;
+                        opacity: 0;
+                        transition: .6s;
+
+                        >li {
+                            >ul {
+                                >h2 {
+                                    font-size: 14px;
+                                    color: #f8f8fd98;
+                                    font-weight: 200;
+                                    text-transform: capitalize;
+                                    margin: 35px 0 15px;
+                                }
+                            }
+
+                            &:nth-of-type(1) {
+                                >ul {
+                                    >li {
+                                        >a {
+                                            font-weight: 500;
+                                            font-size: 22px;
+                                            text-transform: capitalize;
+                                            color: rgb(209 209 209);
+                                            margin-bottom: 10px;
+                                            display: flex;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &:nth-of-type(2),
+                            &:nth-of-type(3) {
+                                >ul {
+                                    >li {
+                                        >a {
+                                            font-weight: 600;
+                                            font-size: 13px;
+                                            text-transform: capitalize;
+                                            color: rgb(209 209 209);
+                                            margin-bottom: 10px;
+                                            display: flex;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.icon-header {
+    width: 18px;
+    margin-left: 20px;
+}
+
+.pro16,
+.iphone16 {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/new2.jpg);
+    background-size: cover;
+    background-position: top;
+    color: #f8f8fd;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 45px;
+
+    >div {
+        margin-top: 45px;
+
+        >h2 {
+            font-size: 53px;
+            margin-bottom: 15px;
+        }
+
+        >h3 {
+            font-size: 27px;
+            font-weight: 200;
+            margin-bottom: 30px;
+        }
+
+        >div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            >button {
+                padding: 13px 25px;
+                font-size: 17px;
+                border-radius: 30px;
+                cursor: pointer;
+
+                &:first-of-type {
+                    border: none;
+                    background-color: #0071e3;
+                    color: #f8f8fd;
+                }
+
+                &:last-of-type {
+                    border: 1px solid #0071e3;
+                    color: #0071e3;
+                    background-color: transparent;
+                    transition: .2s;
+
+                    &:hover {
+                        background-color: #0071e3;
+                        color: var#f8f8fd;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.iphone16 {
+    background-image: url(../img/iphone16.webp);
+    margin-bottom: 10px;
+
+    >div {
+        >div {
+            >button {
+                &:first-of-type {
+                    background-color: var#f8f8fd;
+                    color: #000;
+                }
+
+                &:last-of-type {
+                    border: 1px solid var#f8f8fd;
+                    color: #f8f8fd;
+
+                    &:hover {
+                        background-color: #f8f8fd;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mac {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+
+    >div {
+        margin: 10px;
+        width: 48%;
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+
+        >div {
+            margin-top: 45px;
+
+            >h2 {
+                font-size: 35px;
+                margin-bottom: 10px;
+            }
+
+            >h3 {
+                font-size: 21px;
+                font-weight: 200;
+                margin-bottom: 20px;
+            }
+
+            >img {
+                margin: 0 10px 10px 0;
+            }
+
+            >div {
+                display: flex;
+
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+
+                >button {
+                    padding: 8px 18px;
+                    font-size: 17px;
+                    border-radius: 30px;
+                    cursor: pointer;
+
+                    &:first-of-type {
+                        border: none;
+                        background-color: #0071e3;
+                        color: #f8f8fd;
+                    }
+
+                    &:last-of-type {
+                        border: 1px solid #0071e3;
+                        color: #0071e3;
+                        background-color: transparent;
+                        transition: .2s;
+
+                        &:hover {
+                            background-color: #0071e3;
+                            color: #f8f8fd;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:nth-of-type(1) {
+            color: #f8f8fd;
+            background-image: url(../img/macbookpro.webp);
+        }
+
+        &:nth-of-type(2) {
+            background-image: url(../img/macmini.webp);
+        }
+    }
+}
+
+.slider-swiperJs {
+    width: 98%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.autoplay-progress {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+.autoplay-progress svg {
+    width: 30px;
+    height: 30px;
+    stroke: white;
+    stroke-width: 2;
+    fill: none;
+    stroke-dasharray: 125.6;
+    stroke-dashoffset: 0;
+    animation: progress 3s linear infinite;
+}
+
+.autoplay-progress span {
+    font-size: 14px;
+}
+
+@keyframes progress {
+    from {
+        stroke-dashoffset: 125.6;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.slideshow {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.slides {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    gap: 20px;
+}
+
+.slides img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.footer {
+    background-color: var(--white);
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    >div {
+        width: 72%;
+
+        >p {
+            font-size: 13px;
+            color: rgb(141, 141, 141);
+            margin-bottom: 15px;
+            text-align: justify;
+
+            &:nth-of-type(7) {
+                margin-bottom: 20px;
+            }
+
+            &:nth-of-type(8) {
+                margin: 20px 0;
+
+                >a {
+                    color: var(--blue);
+                }
+            }
+
+            >a {
+                text-decoration: underline !important;
+            }
+        }
+
+        >.line {
+            width: 100%;
+            height: 1px;
+            background-color: rgba(141, 141, 141, 0.699);
+            margin-bottom: 17px;
+        }
+
+        >.links {
+            width: 100%;
+            display: flex;
+            gap: 40px;
+
+            >div {
+                width: 20%;
+
+                >h3 {
+                    font-size: 13px;
+                    margin-bottom: 8px;
+                    color: rgb(75, 75, 75);
+
+                    &:nth-of-type(2),
+                    &:nth-of-type(3),
+                    &:nth-of-type(4) {
+                        margin-top: 25px;
+                    }
+                }
+
+                >ul {
+                    >li {
+                        margin-bottom: 5px;
+
+                        >a {
+                            font-size: 12px;
+                            color: rgb(141, 141, 141);
+
+                            &:hover {
+                                text-decoration: underline !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        >.footer-info {
+            >div {
+                >p {
+                    color: rgb(121, 121, 121);
+                    margin: 30px 0 30px;
+
+                    >strong {
+                        color: rgb(75, 75, 75);
+                    }
+                }
+
+                >div {
+                    display: flex;
+                    align-items: center;
+                    gap: 18px;
+                    margin-bottom: 25px;
+
+                    >a {
+                        font-size: 17px;
+                        transition: .2s;
+                        color: rgb(75, 75, 75);
+
+                        &:hover {
+                            text-decoration: underline;
+                            color: rgb(24 24 24);
+                        }
+                    }
+
+                    >i {
+                        font-size: 22px;
+                        color: rgb(24 24 24);
+                    }
+                }
+            }
+        }
+    }
+}
+
